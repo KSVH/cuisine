@@ -6,9 +6,7 @@ import { colors, sizes } from "../../global";
 const Home = () => {
   return (
     <ScrollView style={styles.background}>
-      <View>
-        <Navbar />
-      </View>
+      <Navbar />
     </ScrollView>
   );
 };

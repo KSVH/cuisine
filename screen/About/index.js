@@ -5,8 +5,8 @@ const About = props => {
   return (
     <SafeAreaView>
       <Text>About</Text>
-      <TouchableOpacity onPress={() => props.navigation.navigate("contact")}>
-        <Text>Go to Contact</Text>
+      <TouchableOpacity onPress={() => props.navigation.navigate("home")}>
+        <Text>Home</Text>
       </TouchableOpacity>
     </SafeAreaView>
   );

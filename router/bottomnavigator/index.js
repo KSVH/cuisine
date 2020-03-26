@@ -4,6 +4,7 @@ import { MaterialCommunityIcons } from "react-native-vector-icons";
 import Home from "../../screen/Home";
 import About from "../../screen/About";
 import Category from "../../screen/Category";
+
 const BottomTabNav = createBottomTabNavigator();
 
 function BottomTab() {
